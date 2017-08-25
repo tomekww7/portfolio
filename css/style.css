@@ -28,7 +28,7 @@ ul{
 
 .dark{
   padding:15px;
-  background:#35424a;
+  background:grey;
   color:#ffffff;
   margin-top:10px;
   margin-bottom:10px;
@@ -36,11 +36,11 @@ ul{
 
 /* Header **/
 header{
-  background:#35424a;
+  background:graytext;
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#e8491d 3px solid;
+  border-bottom:blue 3px solid;
 }
 
 header a{
@@ -70,7 +70,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-  color:#e8491d;
+  color:blue;
   font-weight:bold;
 }
 
@@ -89,7 +89,7 @@ header a:hover{
 
 #showcase h1{
   margin-top:100px;
-  font-size:55px;
+  font-size:24px;
   margin-bottom:10px;
 }
 
@@ -140,7 +140,7 @@ header a:hover{
 /* Sidebar */
 aside#sidebar{
   float:right;
-  width:30%;
+  width:20%;
   margin-top:10px;
 }
 
@@ -152,7 +152,18 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 /* Main-col */
 article#main-col{
   float:left;
-  width:65%;
+  width:95%;
+  padding: 10px;
+}
+
+article#main-col img{
+  padding-right: 20px;
+}
+
+article#main-col2{
+  float:left;
+  width:75%;
+  padding: 10px;
 }
 
 /* Services */
@@ -161,14 +172,14 @@ ul#services li{
   padding:20px;
   border: #cccccc solid 1px;
   margin-bottom:5px;
-  background:#e6e6e6;
+  background:white;
 }
 
 footer{
   padding:20px;
   margin-top:20px;
-  color:#ffffff;
-  background-color:#e8491d;
+  color: royalblue;
+  background-color: whitesmoke;
   text-align: center;
 }
 
